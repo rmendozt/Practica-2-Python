@@ -5,13 +5,13 @@ def num_multiplos(lim_i,lim_f):
         for n in range(lim_i,lim_f+1):
             if n%7 ==0 and n%5 ==0:
                 resultado.append(n)
-
+ 
         return resultado
     raise ValueError("El límite inferior debe ser menor al límite superior.")
 multiplos=num_multiplos(1500,2700)
 print(multiplos)
 
-#PROBLEMA 2
+ #PROBLEMA 2 
 n=5
 for i in range(1,n+1):
     for j in range(i):
